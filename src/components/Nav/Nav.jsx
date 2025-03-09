@@ -135,6 +135,7 @@ export default function Navbar() {
           <Button color="inherit"
           onClick={(e) => handleLoginButton(e)}>Login</Button>
           )}
+           {user.id && user.date_joined && (
           <IconButton size="large"
                       color="inherit"
                       onClick={handleAlertsBell}>
@@ -142,6 +143,7 @@ export default function Navbar() {
               <NotificationsIcon />
             </Badge>
           </IconButton>
+             )}
           <IconButton
               size="large"
               edge="end"

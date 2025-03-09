@@ -160,7 +160,7 @@ function HomePage() {
               <Typography variant="h6" >Nest8 Software</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" 
+              <Button color="secondary" 
                       sx={{ textTransform: "none", fontSize: 'large' }}
                       onClick={() => handleClick('/features')}>Features</Button>
             </Grid>
@@ -168,7 +168,7 @@ function HomePage() {
               <Typography variant="h5" sx={{mt: 1}}>|</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" 
+              <Button color="secondary" 
                       sx={{ textTransform: "none", fontSize: 'large' }}
                       onClick={() => handleClick('/pricing')}>Pricing</Button>
             </Grid>
@@ -176,13 +176,13 @@ function HomePage() {
               <Typography variant="h6" >Support</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" onClick={() => handleClick('/faq')}>FAQ</Button>
+              <Button color="secondary" onClick={() => handleClick('/faq')}>FAQ</Button>
             </Grid>
             <Grid item>
               <Typography variant="h5" sx={{mt: 1}}>|</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" 
+              <Button color="secondary" 
                       sx={{ textTransform: "none", fontSize: 'large' }}
                       onClick={() => handleClick('/contact')}>Contact Us</Button>
             </Grid>
@@ -190,7 +190,7 @@ function HomePage() {
               <Typography variant="h6" >Company</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" 
+              <Button color="secondary" 
                       sx={{ textTransform: "none" , fontSize: 'large'}}
                       onClick={() => handleClick('/our_story')}>Our Story</Button>
             </Grid>
@@ -198,7 +198,7 @@ function HomePage() {
               <Typography variant="h5" sx={{mt: 1}} >|</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" 
+              <Button color="secondary" 
                       sx={{ textTransform: "none", fontSize: 'large'}}
                       onClick={() => handleClick('/mission')}>Mission</Button>
             </Grid>
@@ -211,27 +211,27 @@ function HomePage() {
          
           <Grid container spacing={2} justifyContent="center" >
             <Grid item>
-              <IconButton color="primary" href="https://facebook.com">
+              <IconButton color="secondary" href="https://facebook.com">
                 <FacebookIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://twitter.com">
+              <IconButton color="secondary" href="https://twitter.com">
                 <TwitterIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://instagram.com">
+              <IconButton color="secondary" href="https://instagram.com">
                 <InstagramIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://youtube.com">
+              <IconButton color="secondary" href="https://youtube.com">
                 <YouTubeIcon />
               </IconButton>
             </Grid>
             <Grid item>
-              <IconButton color="primary" href="https://linkedin.com">
+              <IconButton color="secondary" href="https://linkedin.com">
                 <LinkedInIcon />
               </IconButton>
             </Grid>
@@ -240,19 +240,19 @@ function HomePage() {
           
           <Grid container spacing={2} justifyContent="center">
             <Grid item>
-              <Button size="large" color="primary" onClick={() => handleClick('/legal')}>Legal</Button>
+              <Button size="large" color="secondary" onClick={() => handleClick('/legal')}>Legal</Button>
             </Grid>
             <Grid item>
               <Typography variant="h6" textAlign='center'>|</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" onClick={() => handleClick('/privacy')}>Privacy Notice</Button>
+              <Button color="secondary" onClick={() => handleClick('/privacy')}>Privacy Notice</Button>
             </Grid>
             <Grid item>
               <Typography variant="h6" textAlign='center'>|</Typography>
             </Grid>
             <Grid item>
-              <Button color="primary" onClick={() => handleClick('/accessibility')}>Accessibility</Button>
+              <Button color="secondary" onClick={() => handleClick('/accessibility')}>Accessibility</Button>
             </Grid>
           </Grid>
         </section>
